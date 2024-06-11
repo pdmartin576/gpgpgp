@@ -1,0 +1,117 @@
+* {margin: 0 auto;padding: 0;box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+/* 
+    #79803C
+    #E97B46
+    #CBA95F
+    #772E25
+    #283D3B
+    #D8E4FF
+    Bad:
+    #4C3223
+*/
+header {
+  background-color: #E97B46;
+  font-size: 1.25rem;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+header .external-links {
+  /* border: 2px solid black; */
+  flex-grow: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+}
+header a {
+  color: linen;
+  text-decoration: none;
+}
+header a:hover {
+  color: #4C1A57;
+}
+.logo {
+  font-size: 1.85rem;
+}
+body {
+    background-color: #79803C;
+    color: #333232;
+}
+main {
+  padding-top: 2.5rem;
+}
+main h1 {
+  font-size: 1.85rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: linen;
+}
+.collapsible {
+    background-color: #283d3b;
+    color: linen;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #172c2a;
+  }
+  
+  .content {
+    padding: 0.25rem 1.5rem;
+    display: none;
+    overflow: hidden;
+    background-color: #CBA95F;
+    border:2px solid #283d3b;
+  }
+  .content p {
+    padding-top: 0.15rem;
+  }
+  .content ul {
+    padding-left: 0.85rem;
+  }
+
+  .skillcheck {
+    color: #9B1D20;
+  }
+  .spell {
+    color: #094074;
+  }
+.about {
+  max-width: 500px;
+  background-color: #CBA95F;
+}
+.bio p {
+  line-height: 1.5;
+  margin: 2rem 0;
+  padding: 0 0.5rem;
+  font-size: 1.12rem;
+}
+  img {
+  display: block;
+  width: 100%;
+}
+.back-to-top {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.75rem;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #444a;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  line-height: 0.5;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  color: white;
+}

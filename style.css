@@ -27,10 +27,12 @@ header .external-links {
   flex-grow: 0.5;
   display: flex;
   justify-content: space-evenly;
+  
 }
 header a {
   color: linen;
   text-decoration: none;
+  padding-bottom: 2px;
 }
 header a:hover {
   color: #4C1A57;

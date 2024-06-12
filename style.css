@@ -103,6 +103,27 @@ main h1 {
   width: 100%;
 }
 
+.info {
+  max-width: 500px;
+  color: linen;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.info p {
+  padding: 0.5rem 0;
+}
+.info ol {
+  text-align: left;
+  margin: 0;
+}
+.info a {
+  text-decoration: none;
+  color: linen;
+}
+.info a:hover {
+  color: #333232;
+}
+
 footer {
   background-color: #E97B46;
   font-size: 1.25rem;

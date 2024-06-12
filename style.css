@@ -115,6 +115,7 @@ main h1 {
 .info ol {
   text-align: left;
   margin: 0;
+  list-style-position: inside;
 }
 .info a {
   text-decoration: none;

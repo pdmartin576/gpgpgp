@@ -43,7 +43,7 @@ body {
     color: #333232;
 }
 main {
-  padding-top: 2.5rem;
+  padding-top: 4rem;
 }
 main h1 {
   font-size: 1.85rem;
@@ -87,6 +87,7 @@ main h1 {
   .spell {
     color: #094074;
   }
+
 .about {
   max-width: 500px;
   background-color: #CBA95F;
@@ -101,6 +102,14 @@ main h1 {
   display: block;
   width: 100%;
 }
+
+footer {
+  background-color: #E97B46;
+  font-size: 1.25rem;
+  color: linen;
+  text-align: center;
+}
+
 .back-to-top {
   position: fixed;
   right: 0.5rem;

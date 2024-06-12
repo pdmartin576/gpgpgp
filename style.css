@@ -80,6 +80,16 @@ main h1 {
   .content ul {
     padding-left: 0.85rem;
   }
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 5px;
+  }
+  .table-number {
+    text-align: center;
+  }
 
   .skillcheck {
     color: #9B1D20;
@@ -118,7 +128,6 @@ main h1 {
   list-style-position: inside;
 }
 .info a {
-  text-decoration: none;
   color: linen;
 }
 .info a:hover {

@@ -53,6 +53,9 @@ main h1 {
   padding-bottom: 1rem;
   color: linen;
 }
+.order-history {
+  padding-top: 1rem;
+}
 .collapsible {
     background-color: #283d3b;
     color: linen;
